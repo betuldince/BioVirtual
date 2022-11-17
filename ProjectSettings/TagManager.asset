@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - projectile
+  - Basket
+  - gr_orange
+  - tr_orange
+  - floor
+  - gr_banana
+  - tr_banana
+  - gr_coconut
+  - tr_coconut
+  - tr_apple
+  - gr_apple
+  - pump
+  - gr_corn
+  - tr_corn
+  - checksound
+  - cake
+  - point
+  - tr_orange_2
+  - tr_orange_3
+  - tr_banana_2
+  - tr_apple_1
+  - tr_apple_2
+  - tr_apple_3
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Hands
+  - floor
+  - interactables
+  - head
+  - holder
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: water
+    uniqueID: 116455189
+    locked: 0
