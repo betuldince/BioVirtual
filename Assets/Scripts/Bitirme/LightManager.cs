@@ -14,7 +14,7 @@ public class LightManager : MonoBehaviour
     public float USER_MIN = 500f;
     public float USER_MAX = -1f;
     private float threshold;
-    SerialPort arduino = new SerialPort("/dev/cu.usbserial-1140", 115200);
+    SerialPort arduino = new SerialPort("/dev/cu.usbserial-140", 115200);
 
     private List<float> data_list = new List<float>();
     private int[] layers;
