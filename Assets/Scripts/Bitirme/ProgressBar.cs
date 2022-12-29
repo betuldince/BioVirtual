@@ -6,10 +6,8 @@ public class ProgressBar : MonoBehaviour
 {
     [SerializeField] public Slider slider;
 
-    private float animationSeconds = 0.2f;
-    public float delta;
-
-
+    private const float ANIMATION_TIME = 0.2f;
+  
     public void ResetSlider()
     {
         slider.value = 0;
@@ -22,7 +20,7 @@ public class ProgressBar : MonoBehaviour
 
     private IEnumerator ProgressSliderCoroutine(float delta)
     {
-        var wait = new WaitForSeconds(animationSeconds);
+        var wait = new WaitForSeconds(ANIMATION_TIME);
         slider.value += delta;
         yield return wait;
     }
