@@ -7,6 +7,7 @@ public class GardenManager : MonoBehaviour
     [SerializeField] List<GameObject> plantsParents;
     [SerializeField] ProgressBar progressBar;
     [SerializeField] ArdunioManager ArdunioManager;
+    [SerializeField] UIManager UIManager;
 
     public bool isPressed = false;
     public float readValue;
@@ -80,17 +81,18 @@ public class GardenManager : MonoBehaviour
 
     private void ProcessNextLayer()
     {
-        GameObject parent = plantsParents[currentPlantLayer++];
+        GameObject parent = plantsParents[currentPlantLayer];
         parent.SetActive(true);
 
         foreach (Transform child in parent.transform)
         {
             progressBar.ResetSlider();
+            UIManager.ChangeIconText((currentPlantLayer + 1).ToString());
             float scale = higherScales.Dequeue();
             child.gameObject.SetActive(true);
             child.DOScale(scale, HIGH_SCALE_DURATION);
         }
-
+        currentPlantLayer++;
         _breathTimer = 0;
     }
 }
