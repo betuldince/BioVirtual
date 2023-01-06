@@ -15,7 +15,7 @@ public class GardenConnection : MonoBehaviour
 
     //SerialPort arduino = new SerialPort("COM3", 115200); windows
     public String port = "/dev/cu.usbserial-140";
-    SerialPort arduino = new SerialPort("/dev/cu.usbserial-140", 115200);
+    SerialPort arduino = new SerialPort("/dev/cu.usbserial-1140", 115200);
 
     public float calibTimer = 0;
     public float breathTimer = 0;

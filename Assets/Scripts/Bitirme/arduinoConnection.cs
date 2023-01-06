@@ -16,7 +16,7 @@ public class arduinoConnection : MonoBehaviour
     public float y;
     
     //SerialPort arduino = new SerialPort("COM3", 115200);
-    SerialPort arduino = new SerialPort("/dev/cu.usbserial-140", 115200);
+    SerialPort arduino = new SerialPort("/dev/cu.usbserial-1140", 115200);
 
     private float MAP_TO_UPPER = 32f; //30
     private float MAP_TO_LOWER = -24f; //-30
