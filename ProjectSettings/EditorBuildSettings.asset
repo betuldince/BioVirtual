@@ -5,27 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/BasicGrab.unity
-    guid: 13bd76582a631124699f410c1e007f8c
-  - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/BasicPoke.unity
-    guid: e6661efa421761b4299803adcd8c1c9a
-  - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/BasicPoseDetection.unity
-    guid: 5661873a4cd8ad8469c072d3852197c2
-  - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/BasicRay.unity
-    guid: 7e040656f12f8dc44a6d88406081f26c
-  - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/ComplexGrab.unity
-    guid: b4db51bf4876fde4ebaca05af639db73
-  - enabled: 0
-    path: Assets/HurricaneVR/TechDemo/Scenes/Garden_Scene.unity
-    guid: 6192b2aa20ec3814f889f74b6930bef8
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: bd31d2838ad4aa042b78f32a17ae623f
+  - enabled: 1
+    path: Assets/Scenes/GardenScene.unity
+    guid: ea7b716c84e58ad42aa562aa2d1b8b23
+  - enabled: 1
+    path: Assets/Scenes/SwimScene.unity
+    guid: 4db8125138c62e34cbf52e0161942d52
   - enabled: 1
     path: Assets/Scenes/UnderwaterScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    guid: 06a004eb8e45b3d49bdeacb6fc7dca14
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d6fbcd667eafada428c3edbfdd47ef7b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 69e097125db452545a580e664e4f459c, type: 2}
