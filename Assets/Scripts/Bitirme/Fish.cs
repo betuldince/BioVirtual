@@ -7,6 +7,7 @@ public class Fish : MonoBehaviour
     public Transform endPosition;
     public float speed;
     public bool isCreated;
+
        
     private void OnEnable()
     {
@@ -18,14 +19,6 @@ public class Fish : MonoBehaviour
         if (isCreated)
         {
             transform.position = Vector3.Lerp(transform.position, endPosition.position, Time.deltaTime * speed);
-        }
+        }  
     }
-
-  
-
-   
-
-
-
-
 }
