@@ -1945,7 +1945,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678392323}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: ea58ed93c024f624aa59079c2df7badf, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: b697fccd62ac72847816bb576d769cdb, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3860,7 +3860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a49346985ace64fb11e683d12d0336, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PortPath: COM5
+  PortPath: COM3
 --- !u!4 &1469002552
 Transform:
   m_ObjectHideFlags: 0

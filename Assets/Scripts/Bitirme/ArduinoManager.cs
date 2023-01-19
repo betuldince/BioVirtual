@@ -22,7 +22,7 @@ public class ArduinoManager : MonoBehaviour
     
     private void ReadData()
     {
-        ReadValue = float.Parse(_arduino.ReadLine()) / 100;
+        ReadValue = float.Parse(_arduino.ReadLine());
     }
 
     private void OnApplicationQuit()
